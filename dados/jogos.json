@@ -1,0 +1,62 @@
+{
+  "campeonato": "Sou Boleiro Sub-16 — Society",
+  "jogos": [
+    {
+      "data": "2026-03-28",
+      "rodada": 1,
+      "adversario": "ONDA LARANJA",
+      "local": "A definir",
+      "status": "realizado",
+      "golsBuguBugu": 6,
+      "golsAdversario": 6,
+      "vencedorPenaltis": "BUGU BUGU",
+      "placarPenaltis": "2x1"
+    },
+    {
+      "data": "2026-04-25",
+      "rodada": 2,
+      "adversario": "KSA",
+      "local": "A definir",
+      "status": "realizado",
+      "golsBuguBugu": 1,
+      "golsAdversario": 5,
+      "vencedorPenaltis": "BUGU BUGU",
+      "placarPenaltis": "3x2"
+    },
+    {
+      "data": "2026-05-30",
+      "rodada": 3,
+      "adversario": "DESCANSO",
+      "local": "",
+      "status": "descanso"
+    },
+    {
+      "data": "2026-06-27",
+      "rodada": 4,
+      "adversario": "PALMEIRAS",
+      "local": "A definir",
+      "status": "futuro"
+    },
+    {
+      "data": "2026-07-25",
+      "rodada": 5,
+      "adversario": "FIFO",
+      "local": "A definir",
+      "status": "futuro"
+    },
+    {
+      "data": "2026-08-29",
+      "rodada": 6,
+      "adversario": "SK SOCCER",
+      "local": "A definir",
+      "status": "futuro"
+    },
+    {
+      "data": "2026-09-26",
+      "rodada": 7,
+      "adversario": "AUDAX",
+      "local": "A definir",
+      "status": "futuro"
+    }
+  ]
+}

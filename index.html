@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Site oficial do BUGU BUGU Futebol Clube — Sub-16 Society e E-Sports EAFC.">
+  <title>BUGU BUGU FC — Futebol &amp; E-Sports</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="css/estilo-global.css">
+  <link rel="stylesheet" href="css/componentes.css">
+</head>
+<body data-pagina="index">
+
+  <div id="cabecalho"></div>
+
+  <main>
+
+    <!-- ===== HERO: banner principal ===== -->
+    <section class="hero" aria-label="Apresentação do clube">
+      <div class="hero-grid">
+        <div class="hero-texto">
+          <div class="selo">— Temporada 2026</div>
+          <h1>O orgulho<br><em>roxo &amp; ouro</em></h1>
+          <div class="desde">Sub-16 · Society · Liga FUT7</div>
+        </div>
+        <div class="hero-escudo">
+          <img src="imagens/escudo.png" alt="Escudo do BUGU BUGU Futebol Clube">
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FAIXA: próximo jogo (preenchida por JS) ===== -->
+    <div class="faixa-jogo" aria-label="Próxima partida">
+      <div class="fj-inner" id="proximo-jogo-home">
+        <span class="fj-rotulo">Carregando...</span>
+      </div>
+    </div>
+
+    <div class="wrap">
+
+      <!-- ===== ATALHOS EDITORIAIS ===== -->
+      <nav class="atalhos" aria-label="Atalhos principais">
+        <a class="atalho" href="paginas/futebol.html">
+          <div class="num">01</div>
+          <h3>Futebol</h3>
+          <p>Jogos, resultados e a classificação do campeonato.</p>
+          <span class="seta" aria-hidden="true">→</span>
+        </a>
+        <a class="atalho" href="paginas/esports.html">
+          <div class="num">02</div>
+          <h3>E-Sports</h3>
+          <p>A equipe de EAFC e a sala de troféus.</p>
+          <span class="seta" aria-hidden="true">→</span>
+        </a>
+        <a class="atalho" href="paginas/loja.html">
+          <div class="num">03</div>
+          <h3>Loja</h3>
+          <p>A camisa oficial do clube.</p>
+          <span class="seta" aria-hidden="true">→</span>
+        </a>
+      </nav>
+
+      <!-- ===== ÚLTIMAS NOTÍCIAS ===== -->
+      <div class="ed-cabecalho">
+        <span class="kicker">Destaques</span>
+        <h2>Últimas do clube</h2>
+      </div>
+
+      <!-- Preenchido por carregar-noticias.js com as 3 notícias mais recentes -->
+      <div class="news-grid" id="grade-home-noticias" aria-live="polite" aria-label="Notícias recentes">
+        <p class="carregando">Carregando notícias...</p>
+      </div>
+
+    </div><!-- fim wrap -->
+  </main>
+
+  <div id="rodape"></div>
+
+  <script src="js/util.js"></script>
+  <script src="js/navegacao.js"></script>
+  <script src="js/carregar-jogos.js"></script>
+  <!-- carregar-noticias.js não faz auto-chamada pois precisa de parâmetros -->
+  <script src="js/carregar-noticias.js"></script>
+  <script>
+    carregarNoticias({ elementoId: 'grade-home-noticias', limite: 3, modoHome: true });
+  </script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "nome": "Camisa Oficial BUGU BUGU FC",
+  "descricao": "Manto oficial nas cores roxo e ouro do clube.",
+  "preco": 100.00,
+  "moeda": "BRL",
+  "tamanhos": ["P", "M", "G", "GG"],
+  "imagemFrente": "imagens/camisa-frente.png",
+  "imagemVerso": "imagens/camisa-verso.png",
+  "linkInstagram": "https://www.instagram.com/bugu_bugu_fc/",
+  "linkWhatsApp": ""
+}

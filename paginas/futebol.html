@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Jogos, resultados e classificação do BUGU BUGU FC no Campeonato Sou Boleiro Sub-16 de Society.">
+  <title>Futebol — BUGU BUGU FC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="../css/estilo-global.css">
+  <link rel="stylesheet" href="../css/componentes.css">
+</head>
+<body data-pagina="futebol">
+
+  <div id="cabecalho"></div>
+
+  <main>
+    <div class="wrap">
+
+      <!-- Cabeçalho editorial com o nome do campeonato preenchido pelo JS -->
+      <div class="ed-cabecalho">
+        <span class="kicker" id="campeonato-nome">Futebol</span>
+        <h2>Futebol</h2>
+      </div>
+
+      <div class="grade-futebol">
+
+        <!-- ===== COLUNA ESQUERDA: LISTA DE JOGOS ===== -->
+        <div>
+
+          <div class="sub-tit">Últimos jogos</div>
+
+          <!-- Legenda do sistema de cores dos placares -->
+          <p class="nota-penaltis">
+            Placar em
+            <span class="destaque-dourado">dourado</span>
+            = venceu a disputa de pênaltis (+1 ponto).
+          </p>
+
+          <!-- Preenchido por carregar-jogos.js com os jogos já realizados -->
+          <div id="ultimos-jogos" aria-live="polite" aria-label="Últimos jogos">
+            <p class="carregando">Carregando jogos...</p>
+          </div>
+
+          <div class="sub-tit" style="margin-top: 2rem">Próximos jogos</div>
+
+          <!-- Preenchido por carregar-jogos.js com jogos futuros e descanso -->
+          <div id="proximos-jogos" aria-live="polite" aria-label="Próximos jogos">
+            <p class="carregando">Carregando jogos...</p>
+          </div>
+
+        </div><!-- fim coluna esquerda -->
+
+        <!-- ===== COLUNA DIREITA: CLASSIFICAÇÃO ===== -->
+        <div>
+
+          <!-- Subtítulo com o nome da liga preenchido pelo JS -->
+          <div class="sub-tit">
+            Classificação &middot; <span id="liga-nome">Liga FUT7</span>
+          </div>
+
+          <div class="tabela-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col" class="esq">Clube</th>
+                  <th scope="col" title="Vitórias">V</th>
+                  <th scope="col" title="Empates">E</th>
+                  <th scope="col" title="Derrotas">D</th>
+                  <th scope="col" title="Pontos de pênaltis">Pên</th>
+                  <th scope="col" title="Pontos totais">Pts</th>
+                </tr>
+              </thead>
+              <!-- Preenchido por carregar-tabela.js com os times ordenados -->
+              <tbody id="tabela-corpo" aria-live="polite">
+                <tr>
+                  <td colspan="7" class="carregando">Carregando tabela...</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <!-- Explicação da regra de pontuação para o torcedor -->
+            <div class="nota">
+              <b>Como pontua:</b> vitória 3 &middot; empate 1 &middot; derrota 0.
+              Toda partida termina em disputa de pênaltis &mdash; quem vence soma
+              <b>+1 ponto</b>. A coluna <b>Pên</b> mostra os pontos ganhos nos pênaltis.
+            </div>
+          </div><!-- fim tabela-wrap -->
+
+        </div><!-- fim coluna direita -->
+
+      </div><!-- fim grade-futebol -->
+    </div><!-- fim wrap -->
+  </main>
+
+  <div id="rodape"></div>
+
+  <!-- util.js deve ser o primeiro: define as funções usadas pelos demais scripts -->
+  <script src="../js/util.js"></script>
+  <script src="../js/navegacao.js"></script>
+  <script src="../js/carregar-jogos.js"></script>
+  <script src="../js/carregar-tabela.js"></script>
+</body>
+</html>

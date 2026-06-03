@@ -1,0 +1,9 @@
+{
+  "equipe": "BUGU BUGU E-Sports",
+  "jogo": "EAFC 26",
+  "instagram": "https://www.instagram.com/bugubuguesports/",
+  "titulos": [
+    { "nome": "Campeão da Glória Cup", "quantidade": 3, "organizador": "@gloriacup.ofc" },
+    { "nome": "Campeão de Federação",  "quantidade": 5, "organizador": "" }
+  ]
+}

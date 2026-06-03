@@ -1,0 +1,21 @@
+# Variáveis de ambiente (NUNCA vão para o repositório)
+.env
+
+# Dependências (se algum dia usar Node.js / npm)
+node_modules/
+
+# Arquivos de sistema (macOS)
+.DS_Store
+
+# Arquivos de sistema (Windows)
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Arquivos temporários de editores
+*.swp
+*.swo
+*~
+.vscode/settings.json

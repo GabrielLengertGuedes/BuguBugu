@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Notícias e destaques do BUGU BUGU Futebol Clube.">
+  <title>Notícias — BUGU BUGU FC</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="../css/estilo-global.css">
+  <link rel="stylesheet" href="../css/componentes.css">
+</head>
+<body data-pagina="noticias">
+
+  <div id="cabecalho"></div>
+
+  <main>
+    <div class="wrap">
+
+      <div class="ed-cabecalho">
+        <span class="kicker">Cobertura</span>
+        <h2>Notícias</h2>
+      </div>
+
+      <!-- Preenchido por carregar-noticias.js com todas as notícias -->
+      <div class="news-grid" id="lista-noticias" aria-live="polite" aria-label="Lista de notícias">
+        <p class="carregando">Carregando notícias...</p>
+      </div>
+
+    </div><!-- fim wrap -->
+  </main>
+
+  <div id="rodape"></div>
+
+  <script src="../js/util.js"></script>
+  <script src="../js/navegacao.js"></script>
+  <script src="../js/carregar-noticias.js"></script>
+  <script>
+    carregarNoticias({ elementoId: 'lista-noticias' });
+  </script>
+</body>
+</html>
