@@ -116,7 +116,6 @@
   flex-direction: column;
   text-decoration: none;
   color: inherit;
-  overflow: hidden;
 }
 
 .news .foto {
@@ -199,14 +198,17 @@ a.news:hover {
   opacity: .82;
 }
 
-a.news .foto-noticia,
-a.news .foto {
-  transition: transform .2s;
+.news .foto-wrap {
+  overflow: hidden;
 }
 
-a.news:hover .foto-noticia,
-a.news:hover .foto {
-  transform: scale(1.02);
+a.news .foto-wrap .foto-noticia {
+  transition: transform .2s;
+  display: block;
+}
+
+a.news:hover .foto-wrap .foto-noticia {
+  transform: scale(1.04);
 }
 
 /* ====== PÁGINA DE ARTIGO ====== */

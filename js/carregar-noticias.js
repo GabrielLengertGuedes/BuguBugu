@@ -53,7 +53,7 @@ function montarCardNoticia(noticia, grande, base) {
   var dataFormatada = formatarData(noticia.data, 'longo-texto');
 
   var fotoHTML = noticia.imagem
-    ? '<img src="' + base + noticia.imagem + '" alt="' + noticia.titulo + '" class="foto-noticia">'
+    ? '<div class="foto-wrap"><img src="' + base + noticia.imagem + '" alt="' + noticia.titulo + '" class="foto-noticia"></div>'
     : '<div class="foto"></div>';
 
   var categoriaHTML = noticia.categoria
