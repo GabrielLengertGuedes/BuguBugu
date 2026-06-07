@@ -368,7 +368,7 @@ main > * {
 
 /* ====== RESPONSIVO ====== */
 @media (max-width: 820px) {
-  nav {
+  header nav {
     position: absolute;
     top: 100%;
     right: 0;
@@ -380,11 +380,11 @@ main > * {
     border-top: 1px solid rgba(232, 181, 58, .15);
   }
 
-  nav.aberto {
+  header nav.aberto {
     display: flex;
   }
 
-  nav a {
+  header nav a {
     text-align: left;
     width: 100%;
     padding: .7rem 1rem;
