@@ -29,7 +29,7 @@
     return '<a href="' + item.href + '"' + classeAtivo + '>' + item.rotulo + '</a>';
   }).join('');
 
-  var srcEscudo = base + 'imagens/escudo.png';
+  var srcEscudo = base + 'imagens/escudo.jpg';
 
   var htmlCabecalho = [
     '<div class="barra-topo">Clube de Futebol &amp; E-Sports &middot; Fundado em 2023</div>',
