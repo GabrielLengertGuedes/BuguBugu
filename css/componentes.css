@@ -9,6 +9,9 @@
 .faixa-jogo {
   background: var(--dourado);
   color: var(--roxo-tinta);
+  position: sticky;
+  top: 90px;
+  z-index: 150;
 }
 
 .fj-inner {
