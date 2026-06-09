@@ -3,7 +3,7 @@
 Site oficial do **BUGU BUGU Futebol Clube**, time Sub-16 de Society e e-sports.  
 Construído com HTML, CSS e JavaScript puro — sem frameworks, sem backend.
 
-🌐 **[bugubugu.github.io/BuguBugu](https://gabriellengguedes.github.io/BuguBugu/)**
+🌐 **[bugubugu.netlify/BuguBugu](https://bugubugu.netlify.app/)**
 
 ---
 
