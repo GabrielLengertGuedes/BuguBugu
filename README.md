@@ -3,7 +3,7 @@
 Site oficial do **BUGU BUGU Futebol Clube**, time Sub-16 de Society e e-sports.  
 Construído com HTML, CSS e JavaScript puro — sem frameworks, sem backend.
 
-🌐 **[bugubugu.netlify/BuguBugu](https://bugubugu.netlify.app/)**
+🌐 **[bugubugu.netlify.app](https://bugubugu.netlify.app/)**
 
 ---
 
@@ -16,6 +16,7 @@ Construído com HTML, CSS e JavaScript puro — sem frameworks, sem backend.
 | E-Sports | `paginas/esports.html` |
 | Loja | `paginas/loja.html` |
 | Notícias | `paginas/noticias.html` |
+| Artigo individual | `paginas/noticia.html` |
 | História | `paginas/historia.html` |
 | Contato | `paginas/contato.html` |
 
@@ -83,9 +84,25 @@ Adicione um objeto ao array `noticias`:
 Coloque a imagem em `imagens/noticias/` com o mesmo nome usado no campo `imagem`.  
 O `id` deve ser único — use sempre o próximo número da sequência.
 
-### Atualizar a camisa — `dados/produto.json`
+### Atualizar as camisas — `dados/produto.json`
 
-Edite `preco`, `tamanhos` ou `linkWhatsApp` (quando disponível).
+O arquivo tem um array `"produtos"` com um objeto por camisa. Para alterar preço, tamanhos ou imagens de um modelo, edite o objeto correspondente:
+
+```json
+{
+  "id": 1,
+  "nome": "Camisa Oficial — Modelo 1",
+  "descricao": "Descrição curta.",
+  "preco": 75.00,
+  "moeda": "BRL",
+  "tamanhos": ["P", "M", "G", "GG"],
+  "imagens": ["imagens/camisa_frente.jpg", "imagens/camisa_costas.jpg"],
+  "linkInstagram": "https://www.instagram.com/bugu_bugu_fc/",
+  "linkWhatsApp": ""
+}
+```
+
+Para adicionar uma nova camisa, copie um objeto existente, altere o `id` e os campos, e adicione ao array.
 
 ---
 
