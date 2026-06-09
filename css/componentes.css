@@ -243,11 +243,13 @@ a.news:hover .foto-wrap .foto-noticia {
 }
 
 .artigo-imagem {
-  width: 100%;
-  height: auto;
   display: block;
+  max-width: 100%;
+  max-height: 520px;
+  width: auto;
+  height: auto;
+  margin: 0 auto 2rem;
   border-radius: 4px;
-  margin-bottom: 2rem;
 }
 
 .artigo-corpo {
