@@ -2,13 +2,13 @@
   "liga": "Liga FUT7",
   "calcularPontosAutomaticamente": true,
   "times": [
-    { "nome": "KSA",          "vitorias": 2, "empates": 0, "derrotas": 0, "vitoriasPenaltis": 1 },
+    { "nome": "KSA",          "vitorias": 3, "empates": 0, "derrotas": 0, "vitoriasPenaltis": 2 },
+    { "nome": "AGFF",         "vitorias": 1, "empates": 1, "derrotas": 0, "vitoriasPenaltis": 2 },
     { "nome": "SK SOCCER",    "vitorias": 1, "empates": 1, "derrotas": 0, "vitoriasPenaltis": 1 },
-    { "nome": "AUDAX",        "vitorias": 1, "empates": 0, "derrotas": 1, "vitoriasPenaltis": 0 },
+    { "nome": "AUDAX",        "vitorias": 1, "empates": 0, "derrotas": 2, "vitoriasPenaltis": 0 },
     { "nome": "BUGU BUGU",    "vitorias": 0, "empates": 1, "derrotas": 1, "vitoriasPenaltis": 2 },
-    { "nome": "AGFF",         "vitorias": 0, "empates": 1, "derrotas": 0, "vitoriasPenaltis": 1 },
     { "nome": "ONDA LARANJA", "vitorias": 0, "empates": 1, "derrotas": 0, "vitoriasPenaltis": 0 },
     { "nome": "PALMEIRAS",    "vitorias": 0, "empates": 0, "derrotas": 1, "vitoriasPenaltis": 0 },
-    { "nome": "FIFO SPORTS",  "vitorias": 0, "empates": 0, "derrotas": 1, "vitoriasPenaltis": 0 }
+    { "nome": "FIFO SPORTS",  "vitorias": 0, "empates": 0, "derrotas": 2, "vitoriasPenaltis": 0 }
   ]
 }
