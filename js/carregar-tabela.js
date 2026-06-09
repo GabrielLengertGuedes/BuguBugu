@@ -57,10 +57,13 @@ function montarLinhaDaTabela(time, posicao) {
   var ehNossoTime = time.nome.toUpperCase() === 'BUGU BUGU';
   var classeNos = ehNossoTime ? ' class="nos"' : '';
 
+  var jogos = time.vitorias + time.empates + time.derrotas;
+
   return [
     '<tr' + classeNos + '>',
     '  <td class="posn">' + posicao + '</td>',
     '  <td class="clube">' + time.nome + '</td>',
+    '  <td>' + jogos + '</td>',
     '  <td>' + time.vitorias + '</td>',
     '  <td>' + time.empates + '</td>',
     '  <td>' + time.derrotas + '</td>',
