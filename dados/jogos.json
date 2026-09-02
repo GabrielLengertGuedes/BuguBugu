@@ -7,10 +7,10 @@
       "adversario": "ONDA LARANJA",
       "local": "A definir",
       "status": "realizado",
-      "golsBuguBugu": 6,
+      "golsBuguBugu": 7,
       "golsAdversario": 6,
-      "vencedorPenaltis": "BUGU BUGU",
-      "placarPenaltis": "2x1"
+      "wo": true,
+      "observacao": "Onda Laranja desistiu da liga; resultado ajustado para W.O. em favor do Bugu Bugu."
     },
     {
       "data": "2026-04-25",
@@ -33,30 +33,40 @@
     {
       "data": "2026-06-27",
       "rodada": 4,
-      "adversario": "PALMEIRAS",
+      "adversario": "AGFF",
       "local": "A definir",
-      "status": "futuro"
-    },
-    {
-      "data": "2026-07-25",
-      "rodada": 5,
-      "adversario": "FIFO",
-      "local": "A definir",
-      "status": "futuro"
+      "status": "realizado",
+      "golsBuguBugu": 3,
+      "golsAdversario": 6
     },
     {
       "data": "2026-08-29",
+      "rodada": 5,
+      "adversario": "FIFO",
+      "local": "Arena Seven Campo 01",
+      "status": "realizado",
+      "golsBuguBugu": 2,
+      "golsAdversario": 1,
+      "vencedorPenaltis": "BUGU BUGU",
+      "placarPenaltis": "3x2"
+    },
+    {
+      "data": "",
       "rodada": 6,
       "adversario": "SK SOCCER",
       "local": "A definir",
       "status": "futuro"
     },
     {
-      "data": "2026-09-26",
+      "data": "2026-10-31",
       "rodada": 7,
       "adversario": "AUDAX",
       "local": "A definir",
-      "status": "futuro"
+      "status": "realizado",
+      "golsBuguBugu": 3,
+      "golsAdversario": 0,
+      "wo": true,
+      "observacao": "Audax desistiu da liga; vitória por W.O. em favor do Bugu Bugu."
     }
   ]
 }

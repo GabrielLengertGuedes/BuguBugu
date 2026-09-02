@@ -376,6 +376,12 @@ a.news:hover .foto-wrap .foto-noticia {
   color: var(--roxo-tinta);
 }
 
+/* Placar de jogo decidido por W.O. (adversário desistiu da liga) */
+.jogo .res.wo {
+  background: #8a7d72;
+  color: var(--papel);
+}
+
 /* Jogo de descanso: layout simplificado e texto em itálico */
 .jogo.folga {
   grid-template-columns: 1fr;

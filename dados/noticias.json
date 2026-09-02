@@ -1,6 +1,46 @@
 {
   "noticias": [
     {
+      "id": 7,
+      "data": "2026-08-29",
+      "categoria": "Futebol",
+      "titulo": "Enfim no tempo normal: Bugu Bugu vence o FIFO por 2 a 1, leva os pênaltis e sobe para 3º",
+      "resumo": "Na 5ª rodada da Liga FUT7, o Bugu Bugu conquistou a vitória mais pedida da temporada: 2 a 1 sobre o FIFO Sports dentro dos 40 minutos, com os dois gols de @guilherme_goulart011. Ainda venceu a disputa de pênaltis por 3 a 2 e chegou aos 12 pontos, na 3ª colocação.",
+      "imagem": "imagens/noticias/jogo-fifo.jpg",
+      "conteudo": [
+        "Era o que faltava. Depois de uma temporada inteira somando pontos no detalhe — vitórias por W.O., disputas de pênaltis vencidas, um empate que virou vitória —, o Bugu Bugu finalmente fez o que perseguia desde a estreia: ganhou um jogo no tempo normal. Foi 2 a 1 sobre o FIFO Sports, pela 5ª rodada da Liga FUT7, na Arena Seven Campo 01.",
+        "Os dois gols saíram dos pés de @guilherme_goulart011, autor de uma atuação decisiva e responsável por todo o ataque do time na partida. O FIFO ainda descontou e pressionou até o apito final, mas a defesa do Bugu Bugu segurou o resultado que o elenco tanto queria.",
+        "Na disputa de pênaltis, mais um capítulo conhecido: vitória por 3 a 2 e o ponto extra garantido — agora como bônus, e não mais como tábua de salvação. Somados os 3 pontos da vitória ao ponto dos pênaltis, o Bugu Bugu chegou aos 12 e subiu para a 3ª colocação, atrás apenas de KSA e AGFF.",
+        "A sequência traz o SK Soccer pela 6ª rodada, em data ainda a ser definida. O time volta a campo para provar que a vitória no tempo normal não foi ponto fora da curva, e sim o começo de uma fase mais consistente."
+      ]
+    },
+    {
+      "id": 6,
+      "data": "2026-06-30",
+      "categoria": "Futebol",
+      "titulo": "Audax e Onda Laranja desistem da 3ª Liga FUT7 Sou Boleiro; jogos contra as equipes viram W.O.",
+      "resumo": "Projeto Escolinha Audax e Onda Laranja abandonaram a competição, e a organização decidiu que todos os confrontos contra as duas equipes — inclusive os já disputados — passariam a valer como vitória por W.O. para o adversário.",
+      "imagem": "imagens/noticias/desistencias-audax-onda-laranja.jpg",
+      "conteudo": [
+        "A 3ª Liga FUT7 Sou Boleiro — Joinville teve uma semana de mudanças fora de campo. O Projeto Escolinha Audax e o Onda Laranja comunicaram a desistência da competição, e a organização decidiu que todos os confrontos envolvendo as duas equipes — mesmo os que já haviam sido disputados — passariam a valer como vitória por W.O. para o adversário.",
+        "A medida mexeu diretamente no retrospecto do Bugu Bugu. O empate em 6 a 6 da rodada de abertura contra o Onda Laranja, decidido nos pênaltis por 2 a 1, deixou de existir como empate: o resultado foi ajustado para 7 a 6, com a vitória computada por W.O. Já o confronto da sétima rodada contra o Audax, que ainda nem havia sido disputado, ficou definido em 3 a 0 também por W.O.",
+        "Com as duas equipes fora, o calendário da 1ª fase fica mais curto para todos os clubes remanescentes, e o Bugu Bugu já soma dois resultados garantidos fora de campo. A comissão técnica agora projeta o restante da temporada com um jogo a menos de indefinição."
+      ]
+    },
+    {
+      "id": 5,
+      "data": "2026-06-27",
+      "categoria": "Futebol",
+      "titulo": "Sem resposta nos pênaltis: Bugu Bugu sofre primeira derrota no tempo normal contra o AGFF",
+      "resumo": "Na 4ª rodada da Liga FUT7, o Bugu Bugu perdeu por 6 a 3 para o AGFF, hoje vice-líder da competição — a primeira derrota do time sem o consolo do ponto extra nos pênaltis.",
+      "imagem": "imagens/noticias/jogo-agff.jpg",
+      "conteudo": [
+        "Depois de dois jogos decididos nos pênaltis, o Bugu Bugu enfim teve uma tarde sem ambiguidade — só que do lado ruim. Na 4ª rodada da Liga FUT7, o time enfrentou o AGFF, hoje vice-líder da competição, e saiu de campo com uma derrota por 6 a 3.",
+        "Diferente das rodadas anteriores, não houve disputa de pênaltis para amenizar o resultado: o AGFF construiu a vantagem ainda no tempo normal e não deu chances de reação. É a primeira vez na temporada que o Bugu Bugu fica sem pontuar em uma partida.",
+        "O resultado reforça um ponto que a comissão técnica já vinha discutindo internamente: a necessidade de solidificar a defesa diante de adversários mais consistentes. Fica a lição para as próximas rodadas, com o time buscando reencontrar o equilíbrio que mostrou no início do campeonato."
+      ]
+    },
+    {
       "id": 1,
       "data": "2026-06-01",
       "categoria": "Futebol",
