@@ -13,7 +13,7 @@
 
 ## 1. Visão geral do projeto
 
-Site institucional do **BUGU BUGU Futebol Clube** (Instagram: [@bugu_bugu_fc](https://www.instagram.com/bugu_bugu_fc/)), um clube que atua em duas modalidades (**futebol** e **e-sports**) sob a mesma marca. O site serve para apresentar o clube ao público, divulgar jogos e resultados, exibir o histórico de títulos e permitir a compra da camisa oficial.
+Site institucional do **BUGU BUGU Futebol Clube** (Instagram: [@bugubugu_fc](https://www.instagram.com/bugubugu_fc/)), um clube que atua em duas modalidades (**futebol** e **e-sports**) sob a mesma marca. O site serve para apresentar o clube ao público, divulgar jogos e resultados, exibir o histórico de títulos e permitir a compra da camisa oficial.
 
 **Identidade visual:** roxo e amarelo/dourado, com escudo (cervo sobre brasão).
 
@@ -68,7 +68,7 @@ Site institucional do **BUGU BUGU Futebol Clube** (Instagram: [@bugu_bugu_fc](ht
 | ID | Requisito | Prioridade |
 |----|-----------|------------|
 | RF15 | Deve existir uma página de produto exibindo a camisa oficial (fotos frente e verso, descrição, preço, tamanhos disponíveis: **P, M, G, GG**). | Essencial |
-| RF16 | **Opção A (agora):** O botão de compra deve direcionar o torcedor para o **Instagram do clube (@bugu_bugu_fc)** com a intenção de compra. O WhatsApp será adicionado como segundo canal quando houver um número definido. | Essencial |
+| RF16 | **Opção A (agora):** O botão de compra deve direcionar o torcedor para o **Instagram do clube (@bugubugu_fc)** com a intenção de compra. O WhatsApp será adicionado como segundo canal quando houver um número definido. | Essencial |
 | RF16b | O **preço** da camisa deve ficar num arquivo de dados editável (não fixo no código), pois varia conforme a demanda/lote de produção. Valor inicial provisório: **R$ 100,00** (a ajustar). | Essencial |
 | RF17 | **Opção B (futuro):** O sistema deve estar preparado para integrar um gateway de pagamento (ex.: Mercado Pago) para venda com pagamento online, quando o clube decidir vender de forma automatizada. | Desejável |
 | RF18 | Caso a Opção B seja ativada, o pagamento **nunca** será processado pelo próprio site: será delegado ao gateway certificado. | Essencial (quando aplicável) |
@@ -156,11 +156,11 @@ Listado aqui para deixar claro o que **não** vamos fazer agora, evitando confus
 
 Todas as decisões iniciais foram tomadas. ✅
 
-- [x] ~~Definir o **nome oficial** do time~~ → **BUGU BUGU Futebol Clube** (@bugu_bugu_fc).
+- [x] ~~Definir o **nome oficial** do time~~ → **BUGU BUGU Futebol Clube** (@bugubugu_fc).
 - [x] ~~Formulário que coleta dados ou só links diretos~~ → **Só links diretos, sem coleta de dados.**
 - [x] ~~Quais jogos de e-sports a equipe disputa~~ → **EAFC (atual: EAFC 26).**
 - [x] ~~Seção de notícias/destaques na v1~~ → **Sim, estrutura entra agora; conteúdo depois.**
-- [x] ~~Canal oficial de venda~~ → **Instagram do clube (@bugu_bugu_fc) por enquanto; WhatsApp depois.**
+- [x] ~~Canal oficial de venda~~ → **Instagram do clube (@bugubugu_fc) por enquanto; WhatsApp depois.**
 - [x] ~~Preço e tamanhos da camisa~~ → **Tamanhos P, M, G, GG. Preço provisório R$ 100,00 (editável, varia por lote/demanda).**
 - [x] ~~Texto da história do clube~~ → **Texto provisório registrado em 7.1.1 (a ajustar).**
 
@@ -179,7 +179,7 @@ Todas as decisões iniciais foram tomadas. ✅
 ### 7.1 Identidade
 - **Nome:** BUGU BUGU Futebol Clube
 - **Fundação:** 01/08/2023
-- **Instagram (clube):** @bugu_bugu_fc
+- **Instagram (clube):** @bugubugu_fc
 - **Instagram (e-sports):** @bugubuguesports
 - **Cores:** roxo e amarelo/dourado
 - **Escudo:** cervo (galhada) sobre brasão amarelo, fundo roxo

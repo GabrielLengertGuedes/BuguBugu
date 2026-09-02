@@ -131,7 +131,7 @@ Todas as telas compartilham:
 - Fotos da camisa (frente e verso).
 - Nome, descrição, preço (de `produto.json`).
 - Seletor de tamanho (P, M, G, GG).
-- Botão **"Comprar pelo Instagram"** → abre o Instagram do clube (@bugu_bugu_fc).
+- Botão **"Comprar pelo Instagram"** → abre o Instagram do clube (@bugubugu_fc).
 - Espaço reservado (oculto por ora) para botão de WhatsApp e, no futuro, pagamento online.
 - Aviso: "A camisa oficial é vendida apenas pelos canais oficiais do clube."
 
@@ -224,7 +224,7 @@ Cada jogo tem um `status`: `"futuro"` ou `"realizado"`. Jogos realizados têm pl
   ]
 }
 ```
-> **Dados reais** (fonte: posts do @bugu_bugu_fc). O site deve separar a exibição em **"Últimos jogos"** (status `realizado`, mostra placar) e **"Próximos jogos"** (status `futuro` ou `descanso`). Quando um jogo acontecer, basta mudar o `status` de `futuro` para `realizado` e preencher o placar.
+> **Dados reais** (fonte: posts do @bugubugu_fc). O site deve separar a exibição em **"Últimos jogos"** (status `realizado`, mostra placar) e **"Próximos jogos"** (status `futuro` ou `descanso`). Quando um jogo acontecer, basta mudar o `status` de `futuro` para `realizado` e preencher o placar.
 
 ### 4.2 `dados/classificacao.json`
 A regra de pontos: `Pts = vitorias*3 + empates*1 + vitoriasPenaltis*1`.
@@ -271,7 +271,7 @@ O site pode **calcular** o total automaticamente a partir desses campos (recomen
   "tamanhos": ["P", "M", "G", "GG"],
   "imagemFrente": "imagens/camisa-frente.png",
   "imagemVerso": "imagens/camisa-verso.png",
-  "linkInstagram": "https://www.instagram.com/bugu_bugu_fc/",
+  "linkInstagram": "https://www.instagram.com/bugubugu_fc/",
   "linkWhatsApp": ""
 }
 ```

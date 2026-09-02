@@ -53,7 +53,7 @@
     '  <div class="footer-inner">',
     '    <img src="' + srcEscudo + '" alt="Escudo BUGU BUGU FC">',
     '    <div class="footer-links">',
-    '      <a href="https://www.instagram.com/bugu_bugu_fc/" target="_blank" rel="noopener noreferrer">Instagram FC</a>',
+    '      <a href="https://www.instagram.com/bugubugu_fc/" target="_blank" rel="noopener noreferrer">Instagram FC</a>',
     '      <a href="https://www.instagram.com/bugubuguesports/" target="_blank" rel="noopener noreferrer">Instagram E-Sports</a>',
     '      <a href="' + base + 'paginas/termos-de-uso.html">Termos de Uso</a>',
     '      <a href="' + base + 'paginas/politica-de-privacidade.html">Privacidade</a>',

@@ -97,7 +97,7 @@ O arquivo tem um array `"produtos"` com um objeto por camisa. Para alterar preç
   "moeda": "BRL",
   "tamanhos": ["P", "M", "G", "GG"],
   "imagens": ["imagens/camisa_frente.jpg", "imagens/camisa_costas.jpg"],
-  "linkInstagram": "https://www.instagram.com/bugu_bugu_fc/",
+  "linkInstagram": "https://www.instagram.com/bugubugu_fc/",
   "linkWhatsApp": ""
 }
 ```
